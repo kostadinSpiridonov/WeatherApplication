@@ -14,7 +14,7 @@ public class DateTimeHelper {
     }
 
     public static String getDateNow(){
-        DateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy hh:mm");
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy hh:mm");
         Date date = new Date();
         return dateFormat.format(date);
     }
